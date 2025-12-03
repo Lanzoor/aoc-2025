@@ -1,4 +1,3 @@
-
 def repeat_count(number: int) -> int:
     string = str(number)
     length = len(string)

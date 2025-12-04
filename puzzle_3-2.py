@@ -2,7 +2,7 @@ def sum_joltages_new(*banks: int) -> int:
     joltages_sum = 0
 
     for bank in banks:
-        result = []
+        result: list[str] = []
         start_point = 0
 
         for remaining in range(12, 0, -1):
